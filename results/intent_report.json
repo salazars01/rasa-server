@@ -1,0 +1,103 @@
+{
+  "tanya_paket_internet": {
+    "precision": 0.45454545454545453,
+    "recall": 1.0,
+    "f1-score": 0.625,
+    "support": 5,
+    "confused_with": {}
+  },
+  "tanya_tagihan": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "tanya_pembayaran": 2,
+      "tanya_harga": 2,
+      "tanya_status_dimatikan": 1
+    }
+  },
+  "tanya_gangguan": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "tanya_koneksi_lambat": 2,
+      "tanya_paket_internet": 1
+    }
+  },
+  "terima_kasih": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "tanya_harga": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "tanya_paket_internet": 4,
+      "tanya_status_dimatikan": 1
+    }
+  },
+  "salam": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "tanya_kontak": 1
+    }
+  },
+  "tanya_restart": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 5,
+    "confused_with": {
+      "tanya_lampu_router": 1,
+      "tanya_koneksi_lambat": 1
+    }
+  },
+  "tanya_password_wifi": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "tanya_pemasangan_baru": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "tanya_status_dimatikan": 1,
+      "tanya_restart": 1,
+      "tanya_password_wifi": 1
+    }
+  },
+  "micro avg": {
+    "precision": 0.7058823529411765,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.6075949367088608,
+    "support": 45
+  },
+  "macro avg": {
+    "precision": 0.5597643097643098,
+    "recall": 0.5333333333333334,
+    "f1-score": 0.5178972262305597,
+    "support": 45
+  },
+  "weighted avg": {
+    "precision": 0.5597643097643098,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.5178972262305596,
+    "support": 45
+  },
+  "accuracy": 0.5333333333333333
+}

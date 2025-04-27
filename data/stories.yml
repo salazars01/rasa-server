@@ -1,0 +1,114 @@
+version: "3.1"
+
+stories:
+
+- story: salam dan tanya paket
+  steps:
+    - intent: salam
+    - action: utter_salam
+    - intent: tanya_paket_internet
+    - action: utter_tanya_paket_internet
+
+- story: tanya harga murah
+  steps:
+    - intent: tanya_harga
+    - action: utter_tanya_harga
+
+- story: tanya kecepatan internet
+  steps:
+    - intent: tanya_kecepatan
+    - action: utter_tanya_kecepatan
+
+- story: tanya area layanan
+  steps:
+    - intent: tanya_area_cakupan
+    - action: utter_tanya_area_cakupan
+
+- story: tanya instalasi
+  steps:
+    - intent: tanya_instalasi
+    - action: utter_tanya_instalasi
+
+- story: tanya kontak
+  steps:
+    - intent: tanya_kontak
+    - action: utter_tanya_kontak
+
+- story: tanya kerjasama
+  steps:
+    - intent: tanya_kerjasama
+    - action: utter_tanya_kerjasama
+
+- story: salam dan terima kasih
+  steps:
+    - intent: salam
+    - action: utter_salam
+    - intent: terima_kasih
+    - action: utter_terima_kasih
+
+- story: user tanya gangguan dan solusi
+  steps:
+    - intent: tanya_gangguan
+    - action: utter_tanya_gangguan
+
+- story: user tanya restart
+  steps:
+    - intent: tanya_restart
+    - action: utter_tanya_restart
+
+- story: user tanya reset
+  steps:
+    - intent: tanya_reset
+    - action: utter_tanya_reset
+
+- story: user tanya password wifi
+  steps:
+    - intent: tanya_password_wifi
+    - action: utter_tanya_password_wifi
+
+- story: user tanya status dimatikan
+  steps:
+    - intent: tanya_status_dimatikan
+    - action: utter_tanya_status_dimatikan
+
+- story: user tanya pembayaran
+  steps:
+    - intent: tanya_pembayaran
+    - action: utter_tanya_pembayaran
+
+- story: user tanya pindah rumah
+  steps:
+    - intent: tanya_pindah_rumah
+    - action: utter_tanya_pindah_rumah
+
+- story: user tanya paket up to
+  steps:
+    - intent: tanya_paket_up_to
+    - action: utter_tanya_paket_up_to
+
+- story: user tanya jadwal teknisi
+  steps:
+    - intent: tanya_jadwal_teknisi
+    - action: utter_tanya_jadwal_teknisi
+
+
+- story: user tanya warna lampu router
+  steps:
+    - intent: tanya_lampu_router
+    - action: utter_tanya_lampu_router
+
+- story: user tanya koneksi lambat
+  steps:
+    - intent: tanya_koneksi_lambat
+    - action: utter_tanya_koneksi_lambat
+
+
+- story: user tanya gangguan umum
+  steps:
+    - intent: tanya_gangguan_umum
+    - action: utter_tanya_gangguan_umum
+
+- story: user tanya aktivasi
+  steps:
+    - intent: tanya_aktivasi
+    - action: utter_tanya_aktivasi

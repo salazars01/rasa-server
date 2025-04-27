@@ -1,0 +1,170 @@
+[
+  {
+    "text": "internet tidak bisa dipakai dari tadi pagi",
+    "intent": "tanya_gangguan",
+    "intent_prediction": {
+      "name": "tanya_paket_internet",
+      "confidence": 0.3636661469936371
+    }
+  },
+  {
+    "text": "kenapa jaringannya tidak stabil?",
+    "intent": "tanya_gangguan",
+    "intent_prediction": {
+      "name": "tanya_koneksi_lambat",
+      "confidence": 0.9030103087425232
+    }
+  },
+  {
+    "text": "sinyal putus nyambung terus",
+    "intent": "tanya_gangguan",
+    "intent_prediction": {
+      "name": "tanya_koneksi_lambat",
+      "confidence": 0.1821211874485016
+    }
+  },
+  {
+    "text": "router sudah saya matikan dan nyalakan lagi",
+    "intent": "tanya_restart",
+    "intent_prediction": {
+      "name": "tanya_lampu_router",
+      "confidence": 0.2491198033094406
+    }
+  },
+  {
+    "text": "saya reboot modemnya",
+    "intent": "tanya_restart",
+    "intent_prediction": {
+      "name": "tanya_koneksi_lambat",
+      "confidence": 0.17064939439296722
+    }
+  },
+  {
+    "text": "tagihan saya bulan ini berapa?",
+    "intent": "tanya_tagihan",
+    "intent_prediction": {
+      "name": "tanya_harga",
+      "confidence": 0.15522123873233795
+    }
+  },
+  {
+    "text": "kenapa tagihan saya lebih mahal?",
+    "intent": "tanya_tagihan",
+    "intent_prediction": {
+      "name": "tanya_pembayaran",
+      "confidence": 0.22143809497356415
+    }
+  },
+  {
+    "text": "saya belum terima tagihan",
+    "intent": "tanya_tagihan",
+    "intent_prediction": {
+      "name": "tanya_pembayaran",
+      "confidence": 0.3156963288784027
+    }
+  },
+  {
+    "text": "bisa kirim ulang tagihan bulan ini?",
+    "intent": "tanya_tagihan",
+    "intent_prediction": {
+      "name": "tanya_harga",
+      "confidence": 0.18073824048042297
+    }
+  },
+  {
+    "text": "kenapa tagihan beda dari biasanya?",
+    "intent": "tanya_tagihan",
+    "intent_prediction": {
+      "name": "tanya_status_dimatikan",
+      "confidence": 0.19659839570522308
+    }
+  },
+  {
+    "text": "saya mau pasang internet di rumah",
+    "intent": "tanya_pemasangan_baru",
+    "intent_prediction": {
+      "name": "tanya_paket_internet",
+      "confidence": 0.10215787589550018
+    }
+  },
+  {
+    "text": "masih bisa daftar untuk pasang baru?",
+    "intent": "tanya_pemasangan_baru",
+    "intent_prediction": {
+      "name": "tanya_kerjasama",
+      "confidence": 0.176677405834198
+    }
+  },
+  {
+    "text": "berapa biaya pemasangan?",
+    "intent": "tanya_pemasangan_baru",
+    "intent_prediction": {
+      "name": "tanya_password_wifi",
+      "confidence": 0.13843952119350433
+    }
+  },
+  {
+    "text": "pengen langganan wifi kalian",
+    "intent": "tanya_pemasangan_baru",
+    "intent_prediction": {
+      "name": "tanya_status_dimatikan",
+      "confidence": 0.18046249449253082
+    }
+  },
+  {
+    "text": "saya minat pasang jaringan",
+    "intent": "tanya_pemasangan_baru",
+    "intent_prediction": {
+      "name": "tanya_restart",
+      "confidence": 0.1055493950843811
+    }
+  },
+  {
+    "text": "siang, ini dengan CS ya?",
+    "intent": "salam",
+    "intent_prediction": {
+      "name": "tanya_kontak",
+      "confidence": 0.1186719536781311
+    }
+  },
+  {
+    "text": "berapa harga paket internet?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_paket_internet",
+      "confidence": 0.48627030849456787
+    }
+  },
+  {
+    "text": "harga paket internetnya berapa?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_paket_internet",
+      "confidence": 0.46568313241004944
+    }
+  },
+  {
+    "text": "mau tanya harga paket",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_paket_internet",
+      "confidence": 0.6453894376754761
+    }
+  },
+  {
+    "text": "harga paket wifi kalian?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_paket_internet",
+      "confidence": 0.5238956809043884
+    }
+  },
+  {
+    "text": "berapa biaya langganan?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_status_dimatikan",
+      "confidence": 0.17587807774543762
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+O7UoK7E4MTextjYWABK1H5k=": "utter_tanya_kerjasama",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+O7UoK7E4MTexloBppSUlqUXx6JoImxoLAESFQNM=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+M6+4JDEnsTiztjYWABNxH7I=": "utter_tanya_instalasi",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+M6+4JDEnsTizloBppSUlqUXx6JoImxoLAFJYQR4=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+sSg1MT45Mbu0IDGvtjYWAHKJIMU=": "utter_tanya_area_cakupan",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+sSg1MT45Mbu0IDGvloCBpSUlqUXxWPQRZXYsAJwfRFc=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+I7EoPbG2NhYAltMd7Q==": "utter_tanya_harga",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+I7EoPbGWgEmlJSWpRfHIGvCbFgsARfs7zw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+Oz+vJDG7tjYWALXSHnI=": "utter_tanya_kontak",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+Oz+vJDG7loBRpSUlqUXxKDoImBcLAA0pPV4=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbe2NhYA6b8bfA==": "utter_salam",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbeWgBmlJSWpRfEQpbhMiAUAP380fA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbeWgBmlJSWpRfEQpeSZQMAVQOMzcxPjsxOLMzNqa2MB0uZRKg==": "utter_terima_kasih",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbeWgBmlJSWpRfEQpeSZQMAVQOMzcxPjsxOLMzOIcwyKDgLmxQIAAVlv8A==": "action_listen",
+    "eJydjkEKgDAMBL+SB/iCfkUkBMmh2MaSpoKU/t1KvRe87SzDsmttC9SkfCHt5k9xUEdAocgOPgg+G0t3S2btjpeO5iBToNgmG8WMFYf6b2HywkhuwkQHG76dCltr2wNrM1SS": "utter_tanya_paket_internet",
+    "eJydjkEKgDAMBL/SB/iCfkUkBMmh2EZJU0FK/26lHoUWb9kwO+ycy2TyIXQCrup2tia3AxgDWfMG76ISVzZFkso4rlGtiegxlI4jqZJAQ/8ZOisU+UI4cCOF5ydMOjbqsznoX24lXnoo": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+OzU5tSARyK6tjQUAElYflg==": "utter_tanya_kecepatan",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+OzU5tSARyK4lYFppSUlqUTy6JsKmxgIAQgNAyg==": "action_listen"
+  }
+}

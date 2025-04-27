@@ -1,0 +1,118 @@
+version: "3.1"
+
+rules:
+
+- rule: Menjawab salam
+  steps:
+    - intent: salam
+    - action: utter_salam
+
+- rule: Menjawab terima kasih
+  steps:
+    - intent: terima_kasih
+    - action: utter_terima_kasih
+
+- rule: Memberi informasi paket internet
+  steps:
+    - intent: tanya_paket_internet
+    - action: utter_tanya_paket_internet
+
+- rule: Memberi informasi harga termurah
+  steps:
+    - intent: tanya_harga
+    - action: utter_tanya_harga
+
+- rule: Memberi informasi kecepatan internet
+  steps:
+    - intent: tanya_kecepatan
+    - action: utter_tanya_kecepatan
+
+- rule: Memberi informasi area layanan
+  steps:
+    - intent: tanya_area_cakupan
+    - action: utter_tanya_area_cakupan
+
+- rule: Memberi informasi instalasi
+  steps:
+    - intent: tanya_instalasi
+    - action: utter_tanya_instalasi
+
+- rule: Memberi kontak marketing
+  steps:
+    - intent: tanya_kontak
+    - action: utter_tanya_kontak
+
+- rule: Memberi informasi kerjasama
+  steps:
+    - intent: tanya_kerjasama
+    - action: utter_tanya_kerjasama
+
+- rule: Memberi informasi gangguan
+  steps:
+    - intent: tanya_gangguan
+    - action: utter_tanya_gangguan
+
+- rule: Memberi panduan restart
+  steps:
+    - intent: tanya_restart
+    - action: utter_tanya_restart
+
+- rule: Memberi panduan reset
+  steps:
+    - intent: tanya_reset
+    - action: utter_tanya_reset
+
+- rule: Memberi panduan ubah password WiFi
+  steps:
+    - intent: tanya_password_wifi
+    - action: utter_tanya_password_wifi
+
+- rule: Memberi informasi pembayaran
+  steps:
+    - intent: tanya_pembayaran
+    - action: utter_tanya_pembayaran
+
+- rule: Memberi informasi pindah rumah
+  steps:
+    - intent: tanya_pindah_rumah
+    - action: utter_tanya_pindah_rumah
+
+- rule: Memberi penjelasan paket up to
+  steps:
+    - intent: tanya_paket_up_to
+    - action: utter_tanya_paket_up_to
+
+- rule: Memberi info jadwal teknisi
+  steps:
+    - intent: tanya_jadwal_teknisi
+    - action: utter_tanya_jadwal_teknisi
+
+- rule: Memberi status jika dimatikan
+  steps:
+    - intent: tanya_status_dimatikan
+    - action: utter_tanya_status_dimatikan
+
+- rule: Menjawab pertanyaan warna lampu router
+  steps:
+    - intent: tanya_lampu_router
+    - action: utter_tanya_lampu_router
+
+- rule: Menjawab koneksi lambat
+  steps:
+    - intent: tanya_koneksi_lambat
+    - action: utter_tanya_koneksi_lambat
+
+- rule: Menjawab pertanyaan gangguan umum
+  steps:
+    - intent: tanya_gangguan_umum
+    - action: utter_tanya_gangguan_umum
+
+- rule: Menjawab pertanyaan aktivasi
+  steps:
+    - intent: tanya_aktivasi
+    - action: utter_tanya_aktivasi
+
+- rule: Jawaban fallback jika tidak yakin
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default

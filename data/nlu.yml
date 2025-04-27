@@ -1,0 +1,181 @@
+version: "3.1"
+
+nlu:
+- intent: salam
+  examples: |
+    - halo
+    - hi
+    - assalamualaikum
+    - selamat pagi
+    - selamat siang
+    - selamat malam
+
+- intent: terima_kasih
+  examples: |
+    - terima kasih
+    - makasih ya
+    - thanks
+    - trims
+    - thank you
+
+- intent: tanya_paket_internet
+  examples: |
+    - ada paket internet apa aja?
+    - paket internetnya apa aja?
+    - saya mau lihat paket internet
+    - info paket dong
+    - tolong jelaskan semua paket internetnya
+    - tanya paket
+    - mau tanya ada paket apa aja
+    - 
+
+- intent: tanya_harga
+  examples: |
+    - berapa harga paket internet termurah?
+    - harga per bulan berapa?
+    - paket yang paling murah berapa?
+    - ada paket internet 100 ribuan?
+    - berapa biaya per bulan?
+    - paket mulai dari harga berapa?
+
+- intent: tanya_kecepatan
+  examples: |
+    - kecepatan internetnya berapa?
+    - berapa Mbps yang tersedia?
+    - saya butuh internet 50 Mbps, ada?
+    - ada pilihan 150 Mbps?
+    - kecepatan internet orbite gimana?
+    - untuk kecepatan berapa Mbps?
+
+- intent: tanya_area_cakupan
+  examples: |
+    - jaringan orbite sampai mana?
+    - apakah sudah sampai daerah saya?
+    - jangkauan internet orbite di mana aja?
+    - apakah tersedia di desa?
+    - bisa dipakai di Pulau Jawa?
+    - untuk coverages di wilayah mana saja?
+
+- intent: tanya_instalasi
+  examples: |
+    - instalasinya bayar gak?
+    - gratis instalasi gak?
+    - perangkatnya dipinjamkan?
+    - boleh pilih tanggal pembayaran?
+    - instalasi bagaimana prosesnya?
+
+- intent: tanya_kontak
+  examples: |
+    - saya mau hubungi marketing
+    - kontaknya siapa ya?
+    - nomor WA-nya berapa?
+    - bisa minta emailnya?
+    - saya mau tanya lebih lanjut
+    - tanya kontak
+
+- intent: tanya_kerjasama
+  examples: |
+    - apakah bisa kerjasama?
+    - ada revenue sharing?
+    - desa saya mau kerjasama
+    - sistem bagi hasil gimana?
+    - pengembangan wilayah bisa pakai dana dari pelanggan?
+
+
+- intent: tanya_gangguan
+  examples: |
+    - internet saya gangguan
+    - kenapa internetnya mati?
+    - koneksi sedang bermasalah?
+    - gangguan jaringan kah?
+    - kenapa wifi tidak jalan?
+
+- intent: tanya_restart
+  examples: |
+    - saya sudah restart
+    - bagaimana cara restart modem?
+    - reset ulang atau restart?
+    - restart router gimana?
+
+- intent: tanya_reset
+  examples: |
+    - cara reset router gimana?
+    - bagaimana cara reset wifi?
+    - perangkatnya bisa direset?
+
+- intent: tanya_password_wifi
+  examples: |
+    - gimana ganti password wifi?
+    - saya lupa password
+    - cara ubah nama wifi gimana?
+    - mau ganti SSID
+
+- intent: tanya_pembayaran
+  examples: |
+    - saya mau bayar
+    - cara bayar tagihan gimana?
+    - pembayaran lewat apa?
+
+- intent: tanya_pindah_rumah
+  examples: |
+    - saya mau pindah rumah
+    - pindah lokasi bisa?
+    - berapa biaya pindah?
+
+- intent: tanya_paket_up_to
+  examples: |
+    - apa itu paket up to?
+    - penjelasan paket up to dong
+    - maksudnya up to gimana?
+
+- intent: tanya_jadwal_teknisi
+  examples: |
+    - teknisinya kapan datang?
+    - jadwal kunjungan teknisi
+    - saya masih tunggu teknisi
+
+- intent: tanya_status_dimatikan
+  examples: |
+    - internet saya dimatikan
+    - status langganan saya apa?
+    - kenapa wifi saya tidak aktif?
+
+- intent: tanya_gangguan_umum
+  examples: |
+    - internet lambat ya?
+    - apakah ada gangguan umum?
+    - kenapa semua wifi lambat?
+
+- intent: tanya_aktivasi
+  examples: |
+    - cara aktivasi gimana?
+    - saya baru bayar, gimana aktivasinya?
+
+- intent: tanya_koneksi_lambat
+  examples: |
+    - kenapa internet lambat?
+    - koneksi lemot banget
+    - wifi saya lemot
+    - koneksi tidak stabil
+    - kenapa wifi saya tidak stabil?
+    - kenapa loading-nya lama?
+    - kenapa buffering terus?
+
+
+- intent: tanya_lampu_router
+  examples: |
+    - lampu router saya merah, itu kenapa?
+    - kenapa lampu modem merah?
+    - lampunya berkedip, normal gak?
+    - apa arti lampu hijau di router?
+    - warna lampu router menjelaskan apa?
+    - lampu di wifi saya oranye
+    - warna lampu menunjukkan apa?
+
+- intent: nlu_fallback
+  examples: |
+    - Saya tidak tahu
+    - Gak ngerti
+    - Maaf, bingung
+    - Bisa ulangi?
+

@@ -1,0 +1,191 @@
+version: "3.1"
+
+intents:
+  - tanya_paket_internet
+  - tanya_harga
+  - tanya_kecepatan
+  - tanya_area_cakupan
+  - tanya_instalasi
+  - tanya_kontak
+  - tanya_kerjasama
+  - salam
+  - terima_kasih
+  - tanya_gangguan
+  - tanya_restart
+  - tanya_reset
+  - tanya_password_wifi
+  - tanya_pembayaran
+  - tanya_pindah_rumah
+  - tanya_paket_up_to
+  - tanya_jadwal_teknisi
+  - tanya_status_dimatikan
+  - tanya_lampu_router
+  - tanya_koneksi_lambat
+  - tanya_aktivasi
+  - tanya_gangguan_umum
+  - nlu_fallback
+
+
+entities:
+  - kecepatan
+
+slots:
+  kecepatan:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: kecepatan
+
+responses:
+  utter_salam:
+    - text: "Halo! Selamat datang di layanan pelanggan Orbite. Ada yang bisa saya bantu?"
+
+  utter_tanya_paket_internet:
+    - text: |
+        Berikut daftar paket internet dari Orbite:
+        - 8 Mbps: Rp 165.000/bulan
+        - 15 Mbps: Rp 210.000/bulan
+        - 25 Mbps: Rp 315.000/bulan
+        - 50 Mbps: Rp 510.000/bulan
+        - 75 Mbps: Rp 700.000/bulan
+        - 100 Mbps: Rp 950.000/bulan
+        - 150 Mbps: Rp 1.200.000/bulan
+        - 250 Mbps: Rp 2.400.000/bulan
+        Semua paket sudah unlimited, instalasi gratis, dan perangkat dipinjamkan.
+
+  utter_tanya_harga:
+    - text: "Harga paket termurah adalah Rp 165.000/bulan untuk kecepatan 8 Mbps. Mau saya bantu pilih paket?"
+
+  utter_tanya_kecepatan:
+    - text: "Kecepatan yang tersedia mulai dari 8 Mbps hingga 250 Mbps, semuanya simetris dan stabil."
+
+  utter_tanya_area_cakupan:
+    - text: "Jaringan kami sudah menjangkau lebih dari 120 desa dan 8000 homepass di Pulau Jawa."
+
+  utter_tanya_instalasi:
+    - text: "Instalasi gratis dan perangkat juga dipinjamkan secara gratis. Anda juga bebas pilih tanggal pembayaran."
+
+  utter_tanya_kontak:
+    - text: |
+        Silakan hubungi kami di:
+        📱 WhatsApp: 08118787092 / 0818280392
+        📧 Email: admin@orbite.net.id / melinda@orbite.net.id / indah@orbite.net.id
+
+  utter_tanya_kerjasama:
+    - text: |
+        Kami membuka peluang kerjasama dengan konsep revenue sharing 5% untuk RW/Desa.
+        Dana bisa digunakan untuk pengembangan wilayah.
+
+  utter_terima_kasih:
+    - text: "Terima kasih kembali! Jangan ragu hubungi kami jika ada pertanyaan lainnya ya."
+
+  utter_tanya_gangguan:
+    - text: "Mohon maaf atas kendalanya, jika terjadi hal yang sama silakan coba restart terlebih dahulu. Jika masih tidak bisa, silakan hubungi kami kembali ya 🙏"
+
+  utter_tanya_restart:
+    - text: |
+        Silakan coba restart perangkat WiFi:
+        - Cabut colokan power
+        - Tunggu 5 menit
+        - Colokkan kembali
+        Kalau masih belum bisa, beri tahu kami ya 🙏
+
+  utter_tanya_reset:
+    - text: |
+        Silakan reset perangkat:
+        - Cari lubang kecil di perangkat
+        - Colok dengan jarum sampai lampu mati
+        - Lepas jarum saat lampu menyala kembali
+        User & password akan kembali ke bawaan (tertera di belakang perangkat)
+
+  utter_tanya_password_wifi:
+    - text: |
+        Untuk ganti nama dan password WiFi:
+        1. Buka browser dan akses 192.168.1.1
+        2. Login sesuai tipe router
+        3. Ganti nama SSID dan password di menu Network > Security
+        (Petunjuk lengkap ada di belakang perangkat)
+
+  utter_tanya_pembayaran:
+    - text: |
+        Pembayaran dapat dilakukan sesuai tagihan yang dikirim. Mohon gunakan kode pelanggan agar tidak tertukar. Jika sudah bayar, silakan kirim bukti agar bisa diaktifkan kembali 🙏
+
+  utter_tanya_pindah_rumah:
+    - text: |
+        Biaya pindah:
+        - Tanpa penambahan kabel: Rp50.000
+        - Dengan penambahan kabel: Rp150.000
+        Nanti akan disurvey dulu oleh teknisi 🙏
+
+  utter_tanya_paket_up_to:
+    - text: |
+        Paket Up To artinya kecepatan bisa naik turun, tergantung trafik pemakaian. Misal paket 8 Mbps bisa saja turun saat jam sibuk (jam 7–9 malam).
+
+  utter_tanya_jadwal_teknisi:
+    - text: |
+        Mohon ditunggu ya, teknisi kami akan cek secepatnya. Waktu visit tergantung antrean, dan teknisi juga bisa delay karena cuaca atau jadwal lainnya 🙏
+
+  utter_tanya_status_dimatikan:
+    - text: |
+        Status saat ini dinonaktifkan. Silakan kirim bukti pembayaran untuk aktivasi kembali.
+        Jika sudah bayar, silakan kirim bukti agar bisa diaktifkan kembali 🙏
+
+  utter_tanya_lampu_router:
+    - text: |
+        Warna lampu pada router biasanya menandakan status koneksi:
+        - 🔵 Biru/Hijau: Koneksi normal dan internet aktif.
+        - 🔴 Merah: Tidak ada koneksi internet.
+        - 🟡 Kuning/Oranye: Proses booting atau koneksi belum stabil.
+        Jika lampu merah menyala terus, silakan restart dulu router. Jika masih bermasalah, hubungi kami ya.
+
+  utter_tanya_koneksi_lambat:
+    - text: |
+        Maaf ya jika koneksi terasa lambat 🙏
+        Bisa coba langkah berikut:
+        - Restart router/modem terlebih dahulu
+        - Pastikan tidak banyak perangkat yang terhubung bersamaan
+        - Gunakan kabel LAN jika memungkinkan untuk koneksi lebih stabil
+        Jika masih lambat, hubungi tim kami agar bisa dicek lebih lanjut.
+  utter_tanya_aktivasi:
+    - text: |
+        Untuk aktivasi ulang, silakan kirim bukti pembayaran. Tim kami akan segera mengaktifkan kembali layanan Anda.
+
+  utter_tanya_gangguan_umum:
+    - text: |
+        Kami belum ada info gangguan besar. Namun kadang sinyal bisa tidak stabil karena cuaca atau perbaikan. Silakan restart perangkat dulu, ya.
+
+  utter_default:
+    - text: "Maaf, saya belum mengerti maksud Anda. Bisa dijelaskan lebih lanjut?"
+
+actions:
+  - utter_salam
+  - utter_tanya_paket_internet
+  - utter_tanya_harga
+  - utter_tanya_kecepatan
+  - utter_tanya_area_cakupan
+  - utter_tanya_instalasi
+  - utter_tanya_kontak
+  - utter_tanya_kerjasama
+  - utter_terima_kasih
+  - utter_tanya_gangguan
+  - utter_tanya_restart
+  - utter_tanya_reset
+  - utter_tanya_password_wifi
+  - utter_tanya_pembayaran
+  - utter_tanya_pindah_rumah
+  - utter_tanya_paket_up_to
+  - utter_tanya_jadwal_teknisi
+  - utter_tanya_status_dimatikan
+  - utter_tanya_lampu_router
+  - utter_tanya_koneksi_lambat
+  - utter_tanya_aktivasi
+  - utter_tanya_gangguan_umum
+  - utter_default
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

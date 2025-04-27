@@ -1,0 +1,81 @@
+version: "3.1"
+nlu:
+- intent: tanya_gangguan
+  examples: |
+    - koneksi internetnya mati
+    - internet tidak bisa dipakai dari tadi pagi
+    - kenapa jaringannya tidak stabil?
+    - sinyal putus nyambung terus
+    - internet saya gangguan dari kemarin
+
+- intent: tanya_restart
+  examples: |
+    - saya sudah coba restart router
+    - router sudah saya matikan dan nyalakan lagi
+    - udah restart tapi masih sama
+    - saya reboot modemnya
+    - sudah restart, masih nggak bisa
+
+- intent: tanya_password_wifi
+  examples: |
+    - saya lupa password wifi
+    - bisa bantu reset password wifi saya?
+    - gimana cara ganti password wifi?
+    - password wifi-nya apa ya?
+    - saya mau ubah sandi wifi saya
+
+- intent: tanya_tagihan
+  examples: |
+    - tagihan saya bulan ini berapa?
+    - kenapa tagihan saya lebih mahal?
+    - saya belum terima tagihan
+    - bisa kirim ulang tagihan bulan ini?
+    - kenapa tagihan beda dari biasanya?
+
+- intent: tanya_pemasangan_baru
+  examples: |
+    - saya mau pasang internet di rumah
+    - masih bisa daftar untuk pasang baru?
+    - berapa biaya pemasangan?
+    - pengen langganan wifi kalian
+    - saya minat pasang jaringan
+
+- intent: salam
+  examples: |
+    - halo
+    - selamat pagi
+    - assalamualaikum
+    - siang, ini dengan CS ya?
+    - hai admin
+
+- intent: terima_kasih
+  examples: |
+    - makasih ya
+    - terima kasih banyak
+    - oke sip, makasih infonya
+    - thank you
+    - mantap, terima kasih
+
+- intent: tanya_paket_internet
+  examples: |
+    - paket internetnya apa aja?
+    - saya mau lihat paket internet
+    - info paket dong
+    - tanya paket internet
+    - paket internet yang ada apa?  
+
+- intent: tanya_harga
+  examples: |
+    - berapa harga paket internet?
+    - harga paket internetnya berapa?
+    - mau tanya harga paket
+    - harga paket wifi kalian?
+    - berapa biaya langganan?
+
+- intent: tanya_kecepatan
+examples: |
+  - kecepatan internetnya berapa?
+  - berapa Mbps yang tersedia?
+  - saya butuh internet 50 Mbps, ada?
+  - ada pilihan 150 Mbps?
+  - kecepatan internet orbite gimana?
