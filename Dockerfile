@@ -8,4 +8,4 @@ COPY . /app
 # Change back to non-root user for better security
 USER 1001
 
-CMD ["rasa", "run", "--enable-api", "--cors", "*"]
+CMD ["run", "--enable-api", "--cors", "*", "--port", "5005"]
